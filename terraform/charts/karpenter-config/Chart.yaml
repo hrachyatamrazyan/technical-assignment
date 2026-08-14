@@ -1,0 +1,6 @@
+apiVersion: v2
+name: karpenter-config
+description: EC2NodeClass and architecture-specific NodePools for the Tech Assignment
+type: application
+version: 1.0.0
+appVersion: "1.14.0"

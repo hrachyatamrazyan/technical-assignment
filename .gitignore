@@ -1,0 +1,25 @@
+.DS_Store
+
+# Terraform local artifacts
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+!terraform/terraform.tfvars
+*.tfplan
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Build/temporary files
+*.log
+tmp/
+temp/
+
+# IDE/editor
+.idea/
+.vscode/

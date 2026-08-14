@@ -1,0 +1,5 @@
+clusterName: ""
+nodeRole: ""
+capacityTypes:
+  - spot
+nodeTags: {}
